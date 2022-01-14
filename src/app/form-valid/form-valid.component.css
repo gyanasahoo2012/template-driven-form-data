@@ -1,0 +1,14 @@
+/* Outline whole Form elements along with textboxes an dropdown borders */
+/*.ng-invalid{*/
+/*  border: 1px solid red;*/
+/*}*/
+
+/* outline the textboxes and dropdown borders*/
+/*input.ng-invalid, select.ng-invalid {*/
+/*  border: 1px solid red;*/
+/*}*/
+
+/* outline the textboxes and dropdown borders*/
+input.ng-invalid.ng-touched, select.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
